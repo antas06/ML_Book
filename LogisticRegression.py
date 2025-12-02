@@ -38,8 +38,10 @@ class LogisticRegression:
   
   def find_classification(self, X):
     y_curv_pred = self.predict(X)
+    self.rows = X.shape[0]
     class_pred = [0 if y_curv_pred <=0.5 else 1 for row in self.rows]
     return class_pred
   
   def accuracy(self, X, y):
-    return (np.sum(self.find_classification(X)==y))/ len(y)
+    class_pred = self.find_classification(X)
+    return (np.sum(np.array(class_pred)==y))/ len(y)
