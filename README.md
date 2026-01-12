@@ -1,6 +1,6 @@
 # ML_Book
 
-# Machine Learning Algorithms — From Scratch
+# Machine Learning Algorithms, From Scratch
 
 ## Overview
 
@@ -9,7 +9,7 @@ The main idea behind this work is to understand **how learning actually happens 
 
 Each algorithm is written with clear logic, simple structure, and readable code, focusing more on **conceptual clarity** than performance.
 
-At present, this project includes implementations of **Linear Regression** and **Logistic Regression**.
+At present, this project includes implementations of **Linear Regression**, **Logistic Regression** and **DecisionTree**.
 
 ---
 
@@ -47,6 +47,13 @@ Implemented using basic Python logic to clearly show how learning happens.
 Implemented using NumPy only for numerical operations.
 
 ---
+
+### Chapter 3: Decision Tree
+
+-Feature-based splitting
+-Gini Impurity / Entropy
+-Information Gain
+-Tree-based classification
 
 ## Code Philosophy
 
